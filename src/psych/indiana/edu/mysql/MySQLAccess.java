@@ -23,9 +23,9 @@ public class MySQLAccess {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			Properties p = new Properties();
-		    p.put("user","eeglab");
-		    p.put("password","eeg2001");
-		    connect = DriverManager.getConnection("jdbc:mysql://localhost/fingerpoint",p);
+		    p.put("user","#####");
+		    p.put("password","#####");
+		    connect = DriverManager.getConnection("#####",p);
 		    
 		} catch (Exception e) {
 			throw e;
